@@ -1,0 +1,279 @@
+[
+  {
+    "text": "Internet protokol funkcionise:",
+    "options": [
+      { "text": "sa uspostavljanjem i raskidom veze", "isCorrect": false },
+      { "text": "sa uspostavljanjem i bez raskida veze", "isCorrect": false },
+      { "text": "bez uspostavljanja i raskida veze", "isCorrect": true }
+    ]
+  },
+  {
+    "text": "Osnovna podela racunarskih telekomunikacionih tehnologija po tipu medija koji koriste je na:",
+    "options": [
+      { "text": "mreze na podrucju grada", "isCorrect": false },
+      { "text": "bezicne mreze", "isCorrect": true },
+      { "text": "lokalne mreze", "isCorrect": false },
+      { "text": "zicne mreze", "isCorrect": true },
+      { "text": "licne racunarske mreze", "isCorrect": false },
+      { "text": "regionalne mreze", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Najnizi sloj OSI modela je:",
+    "options": [
+      { "text": "sloj aplikacije", "isCorrect": false },
+      { "text": "sloj veze", "isCorrect": false },
+      { "text": "transportni sloj", "isCorrect": false },
+      { "text": "sloj prezentacije", "isCorrect": false },
+      { "text": "sloj sesije", "isCorrect": false },
+      { "text": "mrezni sloj", "isCorrect": false },
+      { "text": "fizicki sloj", "isCorrect": true }
+    ]
+  },
+  {
+    "text": "Paketi Internet protokola se nazivaju:",
+    "options": [
+      { "text": "datagrami", "isCorrect": true },
+      { "text": "segmenti", "isCorrect": false },
+      { "text": "okviri", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Komunikacioni model Internet mreze nosi nazive:",
+    "options": [
+      { "text": "Model nezavisnih clanova", "isCorrect": false },
+      { "text": "Model objekti-veze", "isCorrect": false },
+      { "text": "Model sest rukovanja", "isCorrect": false },
+      { "text": "Internet model", "isCorrect": true },
+      { "text": "Eternet model", "isCorrect": false },
+      { "text": "TCP/IP model", "isCorrect": true }
+    ]
+  },
+  {
+    "text": "U domenskom imenu www.singidunum.ac.rs domen najviseg nivoa je:",
+    "options": [
+      { "text": "Ac", "isCorrect": false },
+      { "text": "Www", "isCorrect": false },
+      { "text": "Singidunum", "isCorrect": false },
+      { "text": "Rs", "isCorrect": true }
+    ]
+  },
+  {
+    "text": "Na primeru adrese elektronske poste: primalac @ domen.srb lokalni deo adrese cini:",
+    "options": [
+      { "text": "srb", "isCorrect": false },
+      { "text": "domen", "isCorrect": false },
+      { "text": "primalac", "isCorrect": true },
+      { "text": "znak @", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Hosts fajlovi danas su:",
+    "options": [
+      { "text": "jos uvek aktuelni, sa visim prioritetom od DNS servisa", "isCorrect": true },
+      { "text": "jos uvek aktuelni, sa nizim prioritetom od DNS servisa", "isCorrect": false },
+      { "text": "prevazidjeni uvodjenjem DNS servisa", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Podrazumevani transportni protokol koji koristi SMTP protokol je:",
+    "options": [
+      { "text": "TCP", "isCorrect": true },
+      { "text": "UDP", "isCorrect": false },
+      { "text": "IMAP", "isCorrect": false },
+      { "text": "POP3", "isCorrect": false },
+      { "text": "HTTP", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Korisnik je koriscenjem internet protokola zadao sledecu naredbu (bash-4.1# rm -rf /). Naredba je serveru prosledjena na sledeci nacin:",
+    "options": [
+      { "text": "na kraju sesije, zajedno sa svim ostalim naredbama", "isCorrect": false },
+      { "text": "u delovima, nakon unosa svakog novog karaktera", "isCorrect": false },
+      { "text": "odjednom, nakon pritiska tastera Enter", "isCorrect": true }
+    ]
+  },
+  {
+    "text": "Koriscenjem alata za snimanje mreznog saobracaja uhvacen je paket ICMP protokola. Kao verovatni izvor ovog paketa moze se uzeti:",
+    "options": [
+      { "text": "alat ping", "isCorrect": true },
+      { "text": "neki protokol za rutiranje", "isCorrect": false },
+      { "text": "sistem za prenos fajlova", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "U osnovne zadatke transportnog sloja OSI i TCP/IP komunikacionih modela spajaju:",
+    "options": [
+      { "text": "pronalazenje optimalne rute do odredista", "isCorrect": false },
+      { "text": "ostvarivanje virtuelne veze", "isCorrect": true },
+      { "text": "prijem i isporuka podataka aplikaciji", "isCorrect": true },
+      { "text": "prevodjenje bitova u odgovarajuce elektricne signale", "isCorrect": false },
+      { "text": "ispitivanje dostupnosti komunikacionog medija", "isCorrect": false },
+      { "text": "segmentacija podataka", "isCorrect": true }
+    ]
+  },
+  {
+    "text": "Nakon prijema paketa podataka ruter donosi odluku o nacinu obrade paketa na osnovu:",
+    "options": [
+      { "text": "odredisne fizicke adrese", "isCorrect": false },
+      { "text": "izvorisne logicke adrese", "isCorrect": false },
+      { "text": "odredisne logicke adrese", "isCorrect": true },
+      { "text": "izvorisne fizicke adrese", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Protokol za kontrolu prenosa (engl. Transmission Control Protocol, TCP) funkcionise na:",
+    "options": [
+      { "text": "mreznom sloju", "isCorrect": false },
+      { "text": "fizickom sloju", "isCorrect": false },
+      { "text": "transportnom sloju", "isCorrect": true },
+      { "text": "sloju veze podataka", "isCorrect": false },
+      { "text": "sloju aplikacije", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Za uspostavljanje veze kod TCP protokola potrebno je koriscenje:",
+    "options": [
+      { "text": "komunikacione infrastrukture visokih performansi", "isCorrect": false },
+      { "text": "pomocnog protokola na mreznom sloju (ICMP)", "isCorrect": false },
+      { "text": "tri segmenta bez korisnickih podataka", "isCorrect": true }
+    ]
+  },
+  {
+    "text": "Poruke ICMP protokola se inkapsuliraju u poruke:",
+    "options": [
+      { "text": "protokola za kontrolu prenosa, TCP", "isCorrect": false },
+      { "text": "protokola za prenos fajlova, FTP", "isCorrect": false },
+      { "text": "internet protokola", "isCorrect": true }
+    ]
+  },
+  {
+    "text": "Protokol za prenos hiperteksta (HTTP) definise stanje veze.",
+    "options": [
+      { "text": "zavisi od protokola na transportnom sloju", "isCorrect": false },
+      { "text": "zavisi od protokola na mreznom sloju", "isCorrect": false },
+      { "text": "netacno", "isCorrect": true },
+      { "text": "tacno", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "U privilegovane portove spada opseg:",
+    "options": [
+      { "text": "49.152 - 65.535", "isCorrect": false },
+      { "text": "65.536 - 127.000", "isCorrect": false },
+      { "text": "0 - 1.023", "isCorrect": true },
+      { "text": "1.024 - 49.151", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Protokoli SMB i CIFS najcesce se koriste na operativni sistemima:",
+    "options": [
+      { "text": "Mac OS", "isCorrect": false },
+      { "text": "MS Windows", "isCorrect": true },
+      { "text": "UNIX", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Skup mreza koje koriste javne adrese internet protokola, a cije je administriranje povereno jednoj organizaciji naziva se:",
+    "options": [
+      { "text": "internet", "isCorrect": false },
+      { "text": "internet provajder", "isCorrect": false },
+      { "text": "super mreza", "isCorrect": false },
+      { "text": "autonomni sistem", "isCorrect": true }
+    ]
+  },
+  {
+    "text": "Obratite paznju na sledecu sliku. Na slici je prikazan algoritam:",
+    "options": [
+      { "text": "mejn-frejm arhitekture", "isCorrect": true },
+      { "text": "konkurentne obrade zahteva", "isCorrect": false },
+      { "text": "iterativne obrade zahteva", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Koriscenjem ICMP protokola moze se utvrditi koje je vreme potrebno za:",
+    "options": [
+      { "text": "prenos podataka do odredista", "isCorrect": false },
+      { "text": "prenos podataka do odredista i nazad", "isCorrect": true },
+      { "text": "uspostavljanje veze kod TCP protokola", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Iskljuciva disjunkcija je jedna od logickih operacija koje se koriste u radu sa Internet protokolom. Njenim koriscenjem se prvenstveno omogucava utvrdjivanje:",
+    "options": [
+      { "text": "pozicija na kojoj se bitovi dva niza razlikuju", "isCorrect": true },
+      { "text": "broj skokova izmedju posiljaoca i primaoca", "isCorrect": false },
+      { "text": "komunikacione putanje (rute) koje treba iskljuciti kao moguce", "isCorrect": false },
+      { "text": "optimalne putanje izmedju vise mogucih", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Telnet protokol se moze smatrati visoko bezbednim.",
+    "options": [
+      { "text": "bezbednost zavisi od transportnog sloja.", "isCorrect": false },
+      { "text": "na ovaj protokol nije primenjiv bezbednosni aspekt.", "isCorrect": false },
+      { "text": "netacno", "isCorrect": true },
+      { "text": "tacno", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Obratite paznju na sledecu sliku: Pojavljivanje ovakvog dijaloga pri koriscenju Veb servisa podrazumeva prenos pristupnih parametara:",
+    "options": [
+      { "text": "koriscenjem SSL/TLS protokola", "isCorrect": false },
+      { "text": "u sifrovanom obliku (zasticeno)", "isCorrect": true },
+      { "text": "u izvornom obliku ne (nezasticeno)", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Termin Message User Agent, MUA oznacava deo servisa elektronske poste vezan za:",
+    "options": [
+      { "text": "klijenta", "isCorrect": true },
+      { "text": "server", "isCorrect": false },
+      { "text": "protokol", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Bitska duzina zaglavlja Internet protokola je:",
+    "options": [
+      { "text": "160 bitova ili vise", "isCorrect": false },
+      { "text": "32 bita, fiksno", "isCorrect": true },
+      { "text": "128 bitova ili vise", "isCorrect": false },
+      { "text": "128 bitova, fiksno", "isCorrect": false },
+      { "text": "32 bita ili vise", "isCorrect": false },
+      { "text": "160 bitova, fiksno", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Protokol korisnickih datagrama (engl. User Datagram Protocol, UDP) radi:",
+    "options": [
+      { "text": "bez uspostavljanja veze", "isCorrect": true },
+      { "text": "sa uspostavljanjem veze", "isCorrect": false },
+      { "text": "sa ili bez uspostavljanja veze, po potrebi", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Veb servis Internet mreze je nastao:",
+    "options": [
+      { "text": "1980. godine", "isCorrect": false },
+      { "text": "2001. godine", "isCorrect": false },
+      { "text": "1960. godine", "isCorrect": false },
+      { "text": "1991. godine", "isCorrect": true }
+    ]
+  },
+  {
+    "text": "U slucaju da ruter u tabeli rutiranja nema zapis o mrezi koji pripada odredisna adresa primljenog paketa, kao ni zapis o podrazumevanoj ruti, ruter ce paket:",
+    "options": [
+      { "text": "premestiti u bafer za cekanje", "isCorrect": false },
+      { "text": "odbaciti", "isCorrect": true },
+      { "text": "vratiti posiljaocu", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Mrezni administrator zeli da zabrani korisnicima koriscenje torent aplikacija. U tom cilju na fajervol sistemu pokusava da zabrani koriscenje portova iz opsega 64.000 do 128.000. Fajervol sistem odbija da prihvati zadato pravilo za filtriranje saobracaja. Najverovatniji izvor problema je:",
+    "options": [
+      { "text": "zadati opseg portova nije validan", "isCorrect": true },
+      { "text": "portovi se ne mogu koristiti za filtriranje saobracaja", "isCorrect": false },
+      { "text": "na sistemu postoji pravilo koj", "isCorrect": false }
+    ]
+  }
+]
