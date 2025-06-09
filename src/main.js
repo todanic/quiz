@@ -1,54 +1,46 @@
-import './style.css'
+import "./style.css";
 
 async function loadQuiz() {
-  const response = await fetch('/data.json');
+  const response = await fetch("/data.json");
   const questions = await response.json();
-  const app = document.querySelector('#app');
-  app.innerHTML = '';
+  const app = document.querySelector("#app");
+  app.innerHTML = "";
   questions.forEach((q, index) => {
-    const qDiv = document.createElement('div');
-    qDiv.className = 'question';
+    const qDiv = document.createElement("div");
+    qDiv.className = "question";
 
-
-    const single = q.options.filter(o => o.isCorrect).length === 1;
+    const single = q.options.filter((o) => o.isCorrect).length === 1;
     qDiv.dataset.single = single;
 
-
-    const qTitle = document.createElement('p');
+    const qTitle = document.createElement("p");
     qTitle.textContent = `${index + 1}. ${q.text}`;
     qDiv.appendChild(qTitle);
 
-
     const btns = [];
 
-    q.options.forEach(opt => {
-      const btn = document.createElement('button');
+    q.options.forEach((opt) => {
+      const btn = document.createElement("button");
       btn.textContent = opt.text;
-      btn.className = 'option';
-      btn.addEventListener('click', () => {
+      btn.className = "option";
+      btn.addEventListener("click", () => {
+        if (single && qDiv.classList.contains("answered")) return;
 
-        if (single && qDiv.classList.contains('answered')) return;
-
-        if (btn.classList.contains('answered')) return;
-        btn.classList.add('answered');
+        if (btn.classList.contains("answered")) return;
+        btn.classList.add("answered");
         if (opt.isCorrect) {
-          btn.classList.add('correct');
+          btn.classList.add("correct");
         } else {
-          btn.classList.add('wrong');
+          btn.classList.add("wrong");
         }
 
         if (single) {
-          qDiv.classList.add('answered');
-          btns.forEach(b => (b.disabled = true));
+          qDiv.classList.add("answered");
+          btns.forEach((b) => (b.disabled = true));
           btn.disabled = false;
         }
       });
       qDiv.appendChild(btn);
       btns.push(btn);
-
-      });
-      qDiv.appendChild(btn);
-
     });
 
     app.appendChild(qDiv);
