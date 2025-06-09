@@ -107,3 +107,8 @@ button:focus-visible {
   background-color: red;
   color: #fff;
 }
+
+.selected {
+  background-color: #646cff;
+  color: #fff;
+}
