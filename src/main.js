@@ -9,20 +9,26 @@ async function loadQuiz() {
     const qDiv = document.createElement('div');
     qDiv.className = 'question';
 
+
     const single = q.options.filter(o => o.isCorrect).length === 1;
     qDiv.dataset.single = single;
+
 
     const qTitle = document.createElement('p');
     qTitle.textContent = `${index + 1}. ${q.text}`;
     qDiv.appendChild(qTitle);
 
+
     const btns = [];
+
     q.options.forEach(opt => {
       const btn = document.createElement('button');
       btn.textContent = opt.text;
       btn.className = 'option';
       btn.addEventListener('click', () => {
+
         if (single && qDiv.classList.contains('answered')) return;
+
         if (btn.classList.contains('answered')) return;
         btn.classList.add('answered');
         if (opt.isCorrect) {
@@ -30,6 +36,7 @@ async function loadQuiz() {
         } else {
           btn.classList.add('wrong');
         }
+
         if (single) {
           qDiv.classList.add('answered');
           btns.forEach(b => (b.disabled = true));
@@ -38,6 +45,10 @@ async function loadQuiz() {
       });
       qDiv.appendChild(btn);
       btns.push(btn);
+
+      });
+      qDiv.appendChild(btn);
+
     });
 
     app.appendChild(qDiv);
