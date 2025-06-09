@@ -1,0 +1,21 @@
+[
+  {
+    "text": "Internet protokol funkcionise:",
+    "options": [
+      { "text": "sa uspostavljanjem i raskidom veze", "isCorrect": false },
+      { "text": "sa uspostavljanjem i bez raskida veze", "isCorrect": false },
+      { "text": "bez uspostavljanja i raskida veze", "isCorrect": true }
+    ]
+  },
+  {
+    "text": "Osnovna podela racunarskih telekomunikacionih tehnologija po tipu medija koji koriste je na:",
+    "options": [
+      { "text": "mreze na podrucju grada", "isCorrect": false },
+      { "text": "bezicne mreze", "isCorrect": true },
+      { "text": "lokalne mreze", "isCorrect": false },
+      { "text": "zicne mreze", "isCorrect": true },
+      { "text": "licne racunarske mreze", "isCorrect": false },
+      { "text": "regionalne mreze", "isCorrect": false }
+    ]
+  }
+]
