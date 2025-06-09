@@ -276,4 +276,237 @@
       { "text": "na sistemu postoji pravilo koj", "isCorrect": false }
     ]
   }
+,
+  {
+    "text": "Tehnologija na sloju za pristup mrezi u Internet modelu je:",
+    "options": [
+      { "text": "Internet protokol", "isCorrect": false },
+      { "text": "Eternet", "isCorrect": true },
+      { "text": "Protokol za kontrolu prenosa (TCP)", "isCorrect": false },
+      { "text": "Protokol za prenos hiper-teksta (HTTP)", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "U sloj aplikacije TCP/IP modela objedinjeni su sledeci slojevi OSI modela:",
+    "options": [
+      { "text": "sloj aplikacije", "isCorrect": true },
+      { "text": "fizicki sloj", "isCorrect": false },
+      { "text": "mrezni sloj", "isCorrect": false },
+      { "text": "sloj prezentacije", "isCorrect": true },
+      { "text": "sloj veze", "isCorrect": false },
+      { "text": "transportni sloj", "isCorrect": false },
+      { "text": "sloj sesije", "isCorrect": true }
+    ]
+  },
+  {
+    "text": "Osnovni zadatak mreznog sloja OSI i TCP/IP komunikacionih modela je:",
+    "options": [
+      { "text": "adresovanje u lokalnim racunarskih mrezama", "isCorrect": false },
+      { "text": "odredjivanje komunikacionih procesa na sistemima koji komuniciraju", "isCorrect": false },
+      { "text": "medjumrezno adresovanje", "isCorrect": true }
+    ]
+  },
+  {
+    "text": "Za povezivanje dve racunarske mreze koje su geografski udaljene najcesce se koriste tehnologije i infrastrukture:",
+    "options": [
+      { "text": "BlueTooth", "isCorrect": false },
+      { "text": "IEEE 802.11", "isCorrect": false },
+      { "text": "frejm relej", "isCorrect": true },
+      { "text": "ZigBee", "isCorrect": false },
+      { "text": "javna telefonska mreza", "isCorrect": true },
+      { "text": "Eternet", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Korisnicki servisi se po Internet modelu komunikacije realizuju na:",
+    "options": [
+      { "text": "transportnom sloju", "isCorrect": false },
+      { "text": "sloju za pristup mrezi", "isCorrect": false },
+      { "text": "medju-mreznom sloju", "isCorrect": false },
+      { "text": "sloju aplikacije", "isCorrect": true }
+    ]
+  },
+  {
+    "text": "Svaki dokument ili slika na Internet mrezi, dostupni putem Veb servisa, moraju imati:",
+    "options": [
+      { "text": "jedinstveni uniformni lokator resursa", "isCorrect": true },
+      { "text": "velicinu manju od 100KV", "isCorrect": false },
+      { "text": "implementiran HTTP protokol u sebi", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Sistem domenskih imena (engl. Domain Name System, DNS) realizovan je u arhitekturi:",
+    "options": [
+      { "text": "mejn-frejm", "isCorrect": false },
+      { "text": "ravnopravnih clanova", "isCorrect": false },
+      { "text": "klijent-server", "isCorrect": true }
+    ]
+  },
+  {
+    "text": "Mrezni prolaz (engl. gateway) ima osnovnu funkciju:",
+    "options": [
+      { "text": "davanja mrezne konfiguracije clanovima", "isCorrect": false },
+      { "text": "omogucavanja komunikacije izmedju susednih racunarskih mreza", "isCorrect": true },
+      { "text": "filtriranja paketa po razlicitim parametrima", "isCorrect": false },
+      { "text": "prevodjenja mreznih adresa", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Formalni standard za racunarske telekomunikacije definisan je od strane:",
+    "options": [
+      { "text": "medjunarodnog udruzenja za telekomunikacije", "isCorrect": true },
+      { "text": "kompanije Majkrosoft", "isCorrect": false },
+      { "text": "medjunarodnog udruzenja za telekomunikacije", "isCorrect": false },
+      { "text": "WWW konzorcijuma, W3C", "isCorrect": false },
+      { "text": "kompanije Aj-Bi-Em", "isCorrect": false },
+      { "text": "Medjunarodne organizacije za standardizaciju, ISO", "isCorrect": true }
+    ]
+  },
+  {
+    "text": "Horizontalnu komunikaciju u komunikacionim modelima Internet mreze predstavlja:",
+    "options": [
+      { "text": "komunikacija izmedju implementacija protokola na razlicitim stranama", "isCorrect": true },
+      { "text": "komunikacija izmedju mreznih uredjaja koji rade na istim nivoima", "isCorrect": false },
+      { "text": "komunikacija izmedju razlicitih komunikacionih slojeva", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Klijentska komponenta DNS servisa nosi naziv:",
+    "options": [
+      { "text": "Netconf", "isCorrect": false },
+      { "text": "Hosts fajl", "isCorrect": false },
+      { "text": "Dnsc", "isCorrect": false },
+      { "text": "Resolver", "isCorrect": true }
+    ]
+  },
+  {
+    "text": "Proces inkapsulacije se odnosi na:",
+    "options": [
+      { "text": "dolazni saobracaj", "isCorrect": false },
+      { "text": "bilo koji tip saobracaja", "isCorrect": false },
+      { "text": "odlazni saobracaj", "isCorrect": true }
+    ]
+  },
+  {
+    "text": "Uredjaj koji radi na 3. sloju OSI modela je:",
+    "options": [
+      { "text": "ruter", "isCorrect": true },
+      { "text": "komutator (svic)", "isCorrect": false },
+      { "text": "pojacivac signala (ripiter, hab)", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Primeri protokola za prijem elektronske poste je:",
+    "options": [
+      { "text": "IMAP", "isCorrect": true },
+      { "text": "SMTP", "isCorrect": false },
+      { "text": "HTTP", "isCorrect": false },
+      { "text": "FTP", "isCorrect": false },
+      { "text": "POP3", "isCorrect": true }
+    ]
+  },
+  {
+    "text": "Za prevodjenje logickih adresa u fizicke zaduzen je:",
+    "options": [
+      { "text": "ARP protokol", "isCorrect": true },
+      { "text": "sistem domenskih imena", "isCorrect": false },
+      { "text": "Internet protokol", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Na primeru uniformnog identifikatora resursa: https://abv:gddj@ezz.ijk/lnjm/nnjo?prs=tcu#fhc moze se zakljuciti:",
+    "options": [
+      { "text": "da je korisnicko ime \"abv\"", "isCorrect": true },
+      { "text": "da je lozinka \"tcu\"", "isCorrect": false },
+      { "text": "da je lozinka \"gddj\"", "isCorrect": true },
+      { "text": "da nije koriscena autentifikacija korisnika", "isCorrect": false },
+      { "text": "da je ukljucena autentifikacija korisnika", "isCorrect": true },
+      { "text": "da navedeni uniformni identifikator nije validan", "isCorrect": false },
+      { "text": "da je korisnicko ime \"prs\"", "isCorrect": false },
+      { "text": "da je koriscen FTP protokol", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "U domene najviseg nivoa vezane za drzave spadaju:",
+    "options": [
+      { "text": "Rs", "isCorrect": true },
+      { "text": "Net", "isCorrect": false },
+      { "text": "srb", "isCorrect": true },
+      { "text": "Me", "isCorrect": true },
+      { "text": "Info", "isCorrect": false },
+      { "text": "Com", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Posrednici izmedju Internet mreze i njenih krajnjih korisnika su:",
+    "options": [
+      { "text": "Internet provajderi", "isCorrect": true },
+      { "text": "Veb pretrazivaci", "isCorrect": false },
+      { "text": "Komunikacioni modeli OSI i TCP/IP", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Osnovna jedinica podataka protokola na transportnom sloju naziva se:",
+    "options": [
+      { "text": "paket", "isCorrect": false },
+      { "text": "segment", "isCorrect": true },
+      { "text": "okvir", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Opseg adresa Internet protokol 127.0.0.0/8 namenjen je za:",
+    "options": [
+      { "text": "upotrebu unutar lokalnog racunara", "isCorrect": true },
+      { "text": "upotrebu unutar lokalnog autonomnog sistema", "isCorrect": false },
+      { "text": "upotrebu unutar lokalne mreze", "isCorrect": false },
+      { "text": "upotrebu u eksperimentalne svrhe", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Raspakivanje paketa Protokola za kontrolu prenosa (TCP) iz paketa Internet protokola je:",
+    "options": [
+      { "text": "primer inkapsulacije", "isCorrect": false },
+      { "text": "primer dekapsulacije", "isCorrect": true },
+      { "text": "nemoguce", "isCorrect": false },
+      { "text": "neefikasno koriscenje racunarske mreze", "isCorrect": false },
+      { "text": "opcija koja se koristi samo u retkim slucajevima", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Osnovni kriterijumi za kategorizaciju racunarskih telekomunikacionih tehnologija na 1. i 2. sloju OSI modela su:",
+    "options": [
+      { "text": "tip medija za prenos podatka", "isCorrect": true },
+      { "text": "uskladjenost sa vazecim standardima", "isCorrect": false },
+      { "text": "podrska za paketski prenos podataka", "isCorrect": false },
+      { "text": "geografska povrsina koju pokrivaju", "isCorrect": true },
+      { "text": "nivo bezbednosti koji nude", "isCorrect": false },
+      { "text": "korisnicki servisi koje omogucavaju", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Adresa Internet protokola i mrezna maska se dodeljuju:",
+    "options": [
+      { "text": "pojedinacnim aplikacijama", "isCorrect": false },
+      { "text": "mreznom interfejsu", "isCorrect": true },
+      { "text": "operativnom sistemu", "isCorrect": false },
+      { "text": "umrezenom racunaru", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Uvodjenje klasa mreza (1981. godina) dovelo je do:",
+    "options": [
+      { "text": "potrebe za uvodjenjem mrezne maske", "isCorrect": true },
+      { "text": "privremenog prekida u radu Internet mreze", "isCorrect": false },
+      { "text": "smanjenja broja slobodnih adresa", "isCorrect": false },
+      { "text": "odredjivanja velicine mreze na osnovu prvih bitova adrese", "isCorrect": true }
+    ]
+  },
+  {
+    "text": "Tokom prenosa paketa kroz visestruke racunarske mreze (bez koriscenja prevodjenja adresa - NAT), od posiljaoca do primaoca, menjace se:",
+    "options": [
+      { "text": "fizicke adrese", "isCorrect": true },
+      { "text": "logicke adrese", "isCorrect": false },
+      { "text": "simbolicke adrese", "isCorrect": false }
+    ]
+  }
 ]
