@@ -94,3 +94,23 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.question {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.option {
+  display: block;
+  margin: 0.25rem 0;
+}
+
+.correct {
+  background-color: green;
+  color: #fff;
+}
+
+.wrong {
+  background-color: red;
+  color: #fff;
+}
